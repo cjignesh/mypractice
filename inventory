@@ -1,0 +1,9 @@
+[awx]
+awx.demo.netapp.com
+
+[myself]
+localhost
+
+[everyone:children]
+myself
+awx
